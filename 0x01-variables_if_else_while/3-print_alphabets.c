@@ -1,16 +1,9 @@
 #include <stdio.h>
 
-
-/*
- * main - The alphabets printing in lowercase and uppercase
+/**
+ * main - print alphabets in lowercase and uppercase
  *
- * Main - print alphabet in lower and uppercase
- *
- *
- * Description: Alphabets
- *
- * Return: Always 0 (success)
- *
+ * Return: Always 0 (successs)
  */
 
 int main(void)
