@@ -4,15 +4,15 @@
 
 /**
  *
- *  * main - print alphabet in lower and uppercase
+ * main - print alphabet in lower and uppercase
  *
- *   *
  *
- *    *
  *
- *     * Return: (0) Success
  *
- *      */
+ *
+ * Return: (0) Success
+ *
+ */
 
 int main(void)
 
