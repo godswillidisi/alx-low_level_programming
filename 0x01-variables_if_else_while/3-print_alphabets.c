@@ -2,14 +2,14 @@
 
 
 /*
- *
+ * main - The alphabets printing in lowercase and uppercase
  *
  * Main - print alphabet in lower and uppercase
  *
  *
  * Description: Alphabets
  *
- * Return: (0) Success
+ * Return: Always 0 (success)
  *
  */
 
