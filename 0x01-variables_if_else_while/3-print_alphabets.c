@@ -1,11 +1,10 @@
 #include <stdio.h>
 
 
-
-/**
+/*
  *
- * main - print alphabet in lower and uppercase
  *
+ * Main - print alphabet in lower and uppercase
  *
  *
  * Description: Alphabets
