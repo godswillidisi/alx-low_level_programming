@@ -2,12 +2,21 @@
 
 /**
  * main - Entry point
- *
+ * Description: prints '_putchar'
  * Return: Always 0 (success)
  */
 
-int main()
+int main(void)
 {
+char str[] = "putchar\n";
+int i = 0;
 
-	return (write(1, 3, 1));
+while (str[i] != '\0')
+{
+	char c = str[i];
+
+	_putchar(c);
+	i++;
+}
+	return (0);
 }
