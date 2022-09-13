@@ -10,12 +10,12 @@
 void print_alphabet_x10(void)
 {
 
-	char ch;
+	char v;
 	int i;
 
 	while (i <= 9)
 	{
-		for (ch = 'a'; ch <= 'z'; ch++)
+		for (v = 'a'; v <= 'z'; v++)
 		{
 			_putchar(ch);
 		}
