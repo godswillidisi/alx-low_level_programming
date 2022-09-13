@@ -1,25 +1,26 @@
 #include<stdio.h>
 
 /**
+ * print_alphabet_x10 - Entry point
  * main - Entry point
  *
  * Return: Always 0 (success)
  */
 
-void print_alphabet_x10(void);
-
-	int ch;
-	int i;
+void print_alphabet_x10(void)
 {
-	for (int i e ch; i < 10; i++)
-	{
 
-	for (ch = 'a'; ch <= 'z'; ch++)
+	char ch;
+	int i;
+
+	while (i <= 9)
 	{
-	return ch;	
-	}
-	putchar (i);
-	}	
-	putchar('\n');
-	return (0);
-	}
+		for (ch = 'a'; ch <= 'z'; ch++)
+		{
+			_putchar(ch);
+		}
+		_putchar('\n');
+		i++;
+		}
+
+}
