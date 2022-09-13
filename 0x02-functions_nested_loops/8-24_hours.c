@@ -39,7 +39,7 @@ void jack_bauer(void)
 				minute_t++;
 			}
 			minute_t = '0';
-			hours_i++;
+			hour_i++;
 		}
 		hour_i = '0';
 		hour_t++;
