@@ -1,17 +1,14 @@
 #include "main.h"
 
 /**
- * _strlen - string length
- * @s: character
- * Return: ALways 0
+ * swap_int - Entry point
+ * @a integer
+ * @b: integer
+ * Return: Always 0
  */
-int _strlen(char *s)
+void swap_int(int a*, int b*)
 {
-	int c = 0;
-
-	while (s[c] != '\0')
-	{
-		c++;
-	}
-	return (c);
+	int tmp = *a;
+	*a = *b;
+	*b = tmp;
 }
