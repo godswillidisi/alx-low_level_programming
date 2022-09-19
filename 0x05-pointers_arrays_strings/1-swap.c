@@ -2,7 +2,7 @@
 
 /**
  * swap_int - Entry point
- * @a integer
+ * @a: integer
  * @b: integer
  * Return: Always 0
  */
