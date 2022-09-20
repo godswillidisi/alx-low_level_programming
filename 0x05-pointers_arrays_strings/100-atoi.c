@@ -9,7 +9,7 @@
 int _atoi(char *s)
 {
 	unsigned int c = 0, size = 0, j = 0, k = 1, m = 1, i;
-	
+
 	while (*(s + c) != '\0')
 	{
 		if (size > 0 && (*(s + c) < '0' || *(s + c) > '9'))
@@ -20,7 +20,7 @@ int _atoi(char *s)
 		{
 			if (size > 0)
 				m *= 10;
-			size ++;
+			size++;
 		}
 		c++;
 	}
