@@ -13,8 +13,8 @@ void print_array(int *a, int n)
 
 	for (; c < n; c++)
 	{
-		printf("%d", 8(a + c));
-		if (c != (n-1))
+		printf("%d", *(a + c));
+		if (c != (n - 1))
 			printf(", ");
 	}
 	printf("\n");
