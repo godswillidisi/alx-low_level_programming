@@ -2,27 +2,27 @@
 
 /**
  * *_strncpy - Entry point
- * @dest:
- * @src
+ * @dest: pointer
+ * @src: pointer
  * @n: integer
  * Return: ALways 0
  */
 
-char *_strncpy(char *dest, char *src, int n);
+char *_strncpy(char *dest, char *src, int n)
 {
-	int a;
+	int i;
 
-	a = 0;
-	while (a < n && src[a] != '\0')
+	i = 0;
+	while (i < n && src[i] != '\0')
 	{
-		dest[a] = src[a];
-		a++;
+		dest[i] = src[i];
+		i++;
 	}
 
-	while (a < n)
+	while (i < n)
 	{
-		dest[a] = '\0';
-		a++;
+		dest[i] = '\0';
+		i++;
 	}
 
 	return (dest);
