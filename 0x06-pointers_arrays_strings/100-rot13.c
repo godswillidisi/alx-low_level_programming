@@ -12,19 +12,19 @@ char *rot13(char *str)
 	char alphabet[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	char rot13[] = "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM";
 
-	while (*(s + c) != '\0')
+	while (*(str + c) != '\0')
 	{
 
 		for (i = 0; i < 52; i++)
 		{
-			if (*(s + c) == alphabet[i])
+			if (*(str + c) == alphabet[i])
 			{
-				*(s + c) = rot13[i];
+				*(str + c) = rot13[i];
 				break;
 			}
 			}
 		c++;
 	}
 
-	return (s);
+	return (str);
 }
