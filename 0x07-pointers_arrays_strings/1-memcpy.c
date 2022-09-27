@@ -9,7 +9,7 @@
  * Return: copied memory with n byte change
  */
 
-char *_memcpy(char *dest, char *src, unsighned int n)
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
 	int i = 0;
 	int j = 0;
